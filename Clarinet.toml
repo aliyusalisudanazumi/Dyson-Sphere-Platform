@@ -19,6 +19,11 @@ epoch = 2.5
 path = 'contracts/dyson-investment.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.dyson-simulation]
+path = 'contracts/dyson-simulation.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
